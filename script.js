@@ -39,6 +39,7 @@ document.addEventListener('DOMContentLoaded', function () {
             blockRect.top < finishRect.bottom && blockRect.bottom > finishRect.top) {
             alert('Parabens! agora o Art e um membro da Wal!');
             // Implement level progression here
+            document.getElementById('reward').style.display = 'grid';
         }
     }
 });
