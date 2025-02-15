@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         if (blockRect.left < finishRect.right && blockRect.right > finishRect.left &&
             blockRect.top < finishRect.bottom && blockRect.bottom > finishRect.top) {
-            alert('Parabens! agora o Art e um membro da Wal!');
+            alert('Congratulations! Now Luis can have a Haribo!!');
             // Implement level progression here
             document.getElementById('reward').style.display = 'grid';
         }
